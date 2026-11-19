@@ -16,14 +16,15 @@ tl/dr
 Over 6 weeks, we're going to use modern machinery (math and code) to explore behavioral economics. By the end, you'll have written a small interactive paper[^1] where you apply these tools to a problem you're interested in. Potential topics include: lying in games, racial discrimination, and partner selection. 
 
 "Economics" means that people are trying to maximize something, subject to some constraint. It may sound rigid (and we'll explore the limits), but this framework is already very permissive. People could be deciding: 
-  * Whether or not to accept a job (or spouse), or wait for a better one tomorrow. 
+  * Whether or not to accept a job (or spouse), or keep searching. 
   * How much lying they can get away with before reputation effects kick in and punish them. 
-  * If it's best to follow the crowd, or act on their own beliefs. 
   * Whether they're comfortable living in a given neighborhood, or if they should move.
 
-"Behavioral" means that people are not the [precisely rational creatures](https://en.wikipedia.org/wiki/Homo_economicus) required by neoclassical theory. They might make mistakes when carrying out their plans. They might process information imperfectly (we'll discuss what that means), or they might face hard limits on the amount of information they can handle. 
+"Behavioral" means that people are not the [precisely rational creatures](https://en.wikipedia.org/wiki/Homo_economicus) required by neoclassical theory. They make mistakes and have limits.
 
 An increasingly large part of modern economics is realizing that these "behavioral frictions" aren't just small annoyances that we can model away. In many cases they lead to startlingly different behavior. 
+
+<!-- They might make mistakes when carrying out their plans. They might process information imperfectly (we'll discuss what that means), or they might face hard limits on the amount of information they can handle.  -->
 
 But we can't see clearly what that behavior is by sticking to the "literary" economics of (say) Keynes. We need to model people mathematically, and then implement our models on a computer.  
 
