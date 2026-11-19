@@ -1,6 +1,6 @@
 # FractalU: Computational and Behavioral Economics
 
-I'm teaching a class on _computational, behavioral economics_. Details are below; signup link is [here](https://forms.gle/F3YGmLwnjdBgawUx6).
+I'm teaching a class on _computational, behavioral economics_. Details are below; signup link is [here](https://forms.gle/c39cCG6Si4Uj4A9MA).
 
 My bio: [Arnav Sood](https://arnavsood.com). I'm a 6th year Econ PhD student at [Carnegie Mellon](https://www.cmu.edu) and a data scientist at [Revelio Labs](https://reveliolabs.com). My thesis is on learning and deception involving "behavioral" (not strictly rational) economic agents.
 
@@ -51,7 +51,7 @@ After the class is over, anyone who wants to can remove their material or interi
 Exact topics and order subject to change. **Don't worry if stuff in links seems too advanced**; it's just a reference.
 
 | Class | Topic | Details and References
-| -------- | ------- | ------- | ------- | 
+| -------- | ------- | ------- | 
 | Week 1 (1.16.27) | Setup and Tooling. Intro to JuliaLang. Math Refresher. | [QuantEcon Intro](https://julia.quantecon.org/intro.html)
 | Week 2 (1.23.27) | Rationality and Bounded Rationality. | [Simon on Satisficing](https://iiif.library.cmu.edu/file/Simon_box00070_fld05370_bdl0001_doc0001/Simon_box00070_fld05370_bdl0001_doc0001.pdf), [Savage Axioms Revisited](https://www.glennshafer.com/assets/downloads/articles/article25_savage.pdf)
 | Week 3 (1.30.27) | Dynamical Systems and Racial Discrimination | [Schelling Segregation Model](https://julia.quantecon.org/multi_agent_models/schelling.html), [Intro to Dynamics](https://julia.quantecon.org/introduction_dynamics/scalar_dynam.html)
