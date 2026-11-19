@@ -2,19 +2,18 @@
 
 I'm teaching a class on _computational, behavioral economics_. Details are below; signup link is [here](https://forms.gle/F3YGmLwnjdBgawUx6).
 
-My bio: [Arnav Sood](https://arnavsood.com). I'm a 5th year Econ PhD student at [Carnegie Mellon](https://www.cmu.edu) and former open-source econ developer at [QuantEcon](https://quantecon.org). My thesis is on learning and deception involving "behavioral" (not strictly rational) economic agents.
+My bio: [Arnav Sood](https://arnavsood.com). I'm a 6th year Econ PhD student at [Carnegie Mellon](https://www.cmu.edu) and a data scientist at [Revelio Labs](https://reveliolabs.com). My thesis is on learning and deception involving "behavioral" (not strictly rational) economic agents.
 
 tl/dr
-  - **Time**: Sundays 2:00-4:00PM. 
+  - **Time**: Saturdays 2:00-4:00PM. 
   - **Class**: Learn behavioral economics using math and code. Model and code up an economic/social situation you're interested in. 
-  - **Duration**: 6 weeks, from 1.25.26 to 3.8.26 (skipping 2.15.26)
-  - **Location**: 99 Hudson St., Jersey City (right across from WTC on PATH), **or remote, if you need**
-    - you can use the building amenities (coworking space, gym, pool, etc.) as long as I'm around
-  - **Cost**: $120 (scholarship), $210 (standard), $300 (supporter). Send me an email at [`arnavs@alumni.cmu.edu`](mailto:arnavs@alumni.cmu.edu) if none of these work.
+  - **Duration**: 6 weeks, from 1.16.27 to 2.20.26 
+  - **Location**: 223 Sullivan St., NY 10012 (**or Zoom, if you can't make it**)
+  - **Cost**: $150 (scholarship), $240 (standard), $300 (supporter). Send me an email at [`arnavs@alumni.cmu.edu`](mailto:arnavs@alumni.cmu.edu) if none of these work.
 
 ### Summary 
 
-Over 6 weeks, we're going to use modern machinery (math and code) to explore behavioral economics. By the end, you'll have written a small interactive paper[^1] where you apply these tools to a problem you're interested in. 
+Over 6 weeks, we're going to use modern machinery (math and code) to explore behavioral economics. By the end, you'll have written a small interactive paper[^1] where you apply these tools to a problem you're interested in. Potential topics include: lying in games, racial discrimination, and partner selection. 
 
 "Economics" means that people are trying to maximize something, subject to some constraint. It may sound rigid (and we'll explore the limits), but this framework is already very permissive. People could be deciding: 
   * Whether or not to accept a job (or spouse), or wait for a better one tomorrow. 
@@ -50,14 +49,14 @@ After the class is over, anyone who wants to can remove their material or interi
 
 Exact topics and order subject to change. **Don't worry if stuff in links seems too advanced**; it's just a reference.
 
-| Class | Topic | Details and "Standard Model" | Alternatives
+| Class | Topic | Details and References
 | -------- | ------- | ------- | ------- | 
-| Week 1 (1.25.26) | Setup and tooling. Intro to Julia language. Math refresher. | N/A | N/A
-| Week 2 (2.1.26) | Bayes, Nash, and beyond | What is rationality? Implications of Bayesian rationality. Writing a game formally and defining Nash equilibrium. | Cognitive distortions. Trembles.
-| Week 3 (2.8.26) | Dynamical systems and racial discrimination | [Schelling Segregation Model](https://julia.quantecon.org/multi_agent_models/schelling.html). | Sparse Max. 
-| Week 4 (2.22.26)| Herds and learning from the crowd | Social learning with perfect recall and Bayesian agents. | Versions with bounded memory, deviant agents (overconfident, conformist, malicious), etc. 
-| Week 5 (3.1.26) | Optimal stopping | [McCall search model](https://julia.quantecon.org/dynamic_programming/mccall_model.html). | Recency bias and imperfect recall. 
-| Week 6 (3.8.26) | Persuasion, communication, and lying | Defining lying mathematically. Bayesian persuasion and cheap talk. | **My own research ("frequentist persuasion.'')** Hard limits on info processing and precision of communication. 
-| Date TBD | N/A | N/A | **Project demos! People can share their projects and let your classmates interact with them.**
+| Week 1 (1.16.27) | Setup and Tooling. Intro to JuliaLang. Math Refresher. | [QuantEcon Intro](https://julia.quantecon.org/intro.html)
+| Week 2 (1.23.27) | Rationality and Bounded Rationality. | [Simon on Satisficing](https://iiif.library.cmu.edu/file/Simon_box00070_fld05370_bdl0001_doc0001/Simon_box00070_fld05370_bdl0001_doc0001.pdf), [Savage Axioms Revisited](https://www.glennshafer.com/assets/downloads/articles/article25_savage.pdf)
+| Week 3 (1.30.27) | Dynamical Systems and Racial Discrimination | [Schelling Segregation Model](https://julia.quantecon.org/multi_agent_models/schelling.html), [Intro to Dynamics](https://julia.quantecon.org/introduction_dynamics/scalar_dynam.html)
+| Week 4 (2.6.27)  | Games and Reputation | [Alice in Borderland](https://www.youtube.com/watch?v=i89IO_xVAto), [Rabin on Fairness](https://www.jstor.org/stable/2117561), [Nash on Equilibria](https://www.cs.upc.edu/~ia/nash51.pdf)
+| Week 5 (2.13.27) | Persuasion, Communication, and Lying | [Bayesian Persuasion](https://web.stanford.edu/~gentzkow/research/BayesianPersuasion.pdf), [Lying in Games](https://econweb.ucsd.edu/~jsobel/Papers/Lying.pdf)
+| Week 6 (2.20.27) | Optimal Stopping and Project Demos! | [Job Search](https://julia.quantecon.org/dynamic_programming/mccall_model.html), [Secretary Problem](https://en.wikipedia.org/wiki/Secretary_problem)
+
 
 [^1]: A bit on [what this means](https://paulromer.net/jupyter-mathematica-and-the-future-of-the-research-paper/), and an [example](https://github.com/QuantEcon/notebook-gallery/blob/main/ipynb/john_stachurski-coase.ipynb).
